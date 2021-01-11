@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Form</title>
+        <style>
+            .div{
+                padding: 10px; 
+            }
+        </style>
+    </head>
+    <body style="color: blue; text-align: center;">
+        <h1>Form</h1>
+        <div style="align-content: center;">
+            <form>
+                <div class="div">
+                    <input type="text" placeholder="Full Name">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="div">
+                    <input placeholder="Countries" list="countries">
+                    <datalist id="countries">
+                        <option value="India">
+                        <option value="Pakistan">
+                        <option value="Srilanka">
+                    </datalist>
+                </div>
+                <div class="div">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
